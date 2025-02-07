@@ -51,6 +51,28 @@
 // "Вибачте, але ви маєте ввести значення від 1 до 4 включно".
 // Значення змінної result виведіть в консоль.
 
+// const num = prompt('Введи число від 1 до 4 включно');
+// const result = Number(num);
+
+// switch (result) {
+//   case 1:
+//     alert('Зима');
+//     break;
+//   case 2:
+//     alert('Весна');
+//     break;
+//   case 3:
+//     alert('Літо');
+//     break;
+//   case 4:
+//     alert('Осінь');
+//     break;
+//   default:
+//     alert('Вибачте, але ви маєте ввести значення від 1 до 4 включно');
+// }
+// console.log(result);
+
+// !
 // Завдання 4:
 
 // Отримуйте від користувача число (кількість хвилин) через prompt
@@ -58,6 +80,14 @@
 // Приклад: користувач вводить в prompt '70' -> в консолі відобразиться '01:10'.
 // Корисне посилання для відображення годин та хвилин у потрібному форматі ('01' замість '1'):
 // <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart#examples>
+
+// const number = prompt('Введи кількість хвилин');
+// const hour = String(Math.floor(number / 60)).padStart(2, '0');
+// const min = String(Math.floor(number % 60)).padStart(2);
+
+// console.log(hour + ':' + min);
+
+//!
 
 // Завдання 5:
 
