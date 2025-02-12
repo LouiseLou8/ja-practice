@@ -106,9 +106,34 @@
 // то вивести в alert рядок "Добрий день!",
 // в іншому випадку вивести в alert рядок "Невірний пароль!"
 
+// const login = prompt('Введіть логін');
+// console.log(login);
+
+// if (login === 'Адмін') {
+//   const writePassword = prompt('Введи пароль');
+
+//   if (writePassword === 'Я головний') {
+//     alert('Добрий день!');
+//   } else if (writePassword === null || writePassword === '') {
+//     alert('Скасовано');
+//   } else {
+//     alert('Невірний пароль!');
+//   }
+// } else if (login === null || login === '') {
+//   alert('Скасовано');
+// } else {
+//   alert('Я Вас не знаю');
+// }
+
+// !
 // Завдання 6:
 
 // Використайте цикл while, щоб вивести в console всі числа від 0 до 20 включно.
+// let total = 0;
+// while (total < 20) {
+//   total = total + 1;
+//   console.log(total);
+// }
 
 // Завдання 7:
 
@@ -119,11 +144,35 @@
 // Окрім цього, підрахуйте суму всіх парних чисел в цьому циклі
 // і поверніть її з функції.
 
+// function getNumbers(min, max) {
+//   let sum = 0;
+//   for (let index = max; index >= min; index--) {
+//     console.log(index);
+//     if (index % 2 === 0) {
+//       sum = sum + index;
+//     }
+//   }
+//   console.log(sum);
+//   return sum;
+// }
+// getNumbers(1, 10);
+
 // Завдання 8:
 
 // Напишіть функцію min(a, b), яка приймає 2 числа і повертає меньше з них.
 // Потрібно додати перевірку, що функція отримує саме числа, в іншому випадку
 // повертати з функції рядок - 'Not a number!'.
+
+// function min(a, b) {
+//   if (typeof a !== 'number' || typeof b !== 'number') {
+//     return 'Not a number';
+//   }
+//   if (a < b) {
+//     return a;
+//   } else {
+//     return b;
+//   }
+// }
 
 // Завдання 9:
 
@@ -132,9 +181,24 @@
 // В іншому випадку вона запитує підтвердження через confirm
 // і повертає його результат (true/false).
 
+// function isAdult(age) {
+//   if (age >= 18) {
+//     return true;
+//   } else {
+//     return confirm('Вам є 18 років?');
+//   }
+// }
+// const age = prompt('Вкажіть вік');
+// const isUserAdult = isAdult(Number(age));
 // Завдання 10:
 
 // Напишіть функцію fizzBuzz(num), яка приймає число і перевіряє кожне число від 1 до num:
 // Якщо число ділитися  без остачі на 3 - виводить в консоль 'fizz',
 // якщо ділиться  без остачі на 5 - виводить в консоль 'buzz',
 // якщо ділиться  без остачі і на 3, і на 5 - виводить в консоль 'fizzbuzz'.
+
+// Створи функцію sumMultiplesOf3And5(number), яка приймає ціле число number і повертає суму всіх чисел від 1 до цього числа включно, які діляться одночасно на 3 і 5.
+
+// Умови:
+// Використовуй цикл while.
+// Якщо немає чисел, кратних 3 і 5, функція має повернути 0.
