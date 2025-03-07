@@ -198,7 +198,21 @@
 // якщо ділиться  без остачі на 5 - виводить в консоль 'buzz',
 // якщо ділиться  без остачі і на 3, і на 5 - виводить в консоль 'fizzbuzz'.
 
-function fizzBuzz(num) {}
+// function fizzBuzz(num) {
+//   for (let i = 1; i <= num; i++) {
+//     if (i % 3 === 0 && i % 5 === 0) {
+//       console.log('fizzbuzz');
+//     } else if (i % 3 === 0) {
+//       console.log('fizz');
+//     } else if (i % 5 === 0) {
+//       console.log('buzz');
+//     } else {
+//       console.log(i);
+//     }
+//   }
+// }
+
+// fizzBuzz(18);
 
 // Створи функцію sumMultiplesOf3And5(number), яка приймає ціле число number і повертає суму всіх чисел від 1 до цього числа включно, які діляться одночасно на 3 і 5.
 
@@ -206,4 +220,16 @@ function fizzBuzz(num) {}
 // Використовуй цикл while.
 // Якщо немає чисел, кратних 3 і 5, функція має повернути 0.
 
-function sumMultiplesOf3And5(number) {}
+// function sumMultiplesOf3And5(number) {
+//   let i = 0;
+//   let sum = 0;
+//   while (i <= number) {
+//     if (i % 3 === 0 && i % 5 === 0) {
+//       sum += i;
+//     }
+//     i++;
+//   }
+//   return sum;
+// }
+
+// console.log(sumMultiplesOf3And5(45));

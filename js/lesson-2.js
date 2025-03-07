@@ -10,15 +10,15 @@
 // Використайте цикл for для перебору елементів масиву.
 // Нумерація елементів повинна починатися з 1 (а не з 0).
 
-const styles = ['jazz', 'blues'];
-styles.push('rock-n-roll');
+// const styles = ['jazz', 'blues'];
+// styles.push('rock-n-roll');
 
-styles[1] = 'classic';
-console.log(styles);
+// styles[1] = 'classic';
+// console.log(styles);
 
-function logItems(array) {
-  for (let index = 0; index < array.length; index++) {
-    console.log(`${index + 1} - ${array[index]}`);
-  }
-}
-logItems(styles);
+// function logItems(array) {
+//   for (let index = 0; index < array.length; index++) {
+//     console.log(`${index + 1} - ${array[index]}`);
+//   }
+// }
+// logItems(styles);
